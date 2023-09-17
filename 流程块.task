@@ -1,15 +1,10 @@
-Dim bRet,objPoint,iRet,varRet,temp,temp1,temp2
-For i1 = 1 To 3000 step 1
-
-
-
-For i2 = 1 To 1 step 1
-
+For i = 1 To 3000 step 1
 
 #icon("@res:9b7d7a50-18f5-11ee-9e11-c5ccc6f35942.png")
 Image.Click({"wnd":[{"cls":"UnityWndClass","title":"Legends of Runeterra","app":"LoR"}]},{"x": 0, "y": 0, "width": 0, "height": 0},@res"9b7d7a50-18f5-11ee-9e11-c5ccc6f35942.png",0.75,"left","dbclick",35000, {"bContinueOnError": false, "iDelayAfter": 300, "iDelayBefore": 200, "bSetForeground": true, "sCursorPosition": "Center", "iCursorOffsetX": 0, "iCursorOffsetY": 0, "sKeyModifiers": [],"sSimulate": "simulate","sMatchType":"GrayMatch", "iSerialNo": 1})
 
 Delay(7000)
+
 Mouse.Click("left", "dbclick", [],{"iDelayAfter": 300, "iDelayBefore": 300})
 
 #icon("@res:b69c1300-18f5-11ee-9e11-c5ccc6f35942.png")
@@ -27,43 +22,41 @@ Image.Click({"wnd":[{"cls":"UnityWndClass","title":"Legends of Runeterra","app":
 #icon("@res:f0fa8c70-18f5-11ee-9e11-c5ccc6f35942.png")
 Image.Click({"wnd":[{"cls":"UnityWndClass","title":"Legends of Runeterra","app":"LoR"}]},{"x": 0, "y": 0, "width": 0, "height": 0},@res"f0fa8c70-18f5-11ee-9e11-c5ccc6f35942.png",0.8,"left","click",30000, {"bContinueOnError": true, "iDelayAfter": 300, "iDelayBefore": 200, "bSetForeground": true, "sCursorPosition": "Center", "iCursorOffsetX": 0, "iCursorOffsetY": 0, "sKeyModifiers": [],"sSimulate": "simulate","sMatchType":"GrayMatch", "iSerialNo": 1})
 
-
 #icon("@res:fd693a10-18f5-11ee-9e11-c5ccc6f35942.png")
 Image.Click({"wnd":[{"cls":"UnityWndClass","title":"Legends of Runeterra","app":"LoR"}]},{"x": 0, "y": 0, "width": 0, "height": 0},@res"fd693a10-18f5-11ee-9e11-c5ccc6f35942.png",0.8,"left","click",30000, {"bContinueOnError": true, "iDelayAfter": 300, "iDelayBefore": 200, "bSetForeground": true, "sCursorPosition": "Center", "iCursorOffsetX": 0, "iCursorOffsetY": 0, "sKeyModifiers": [],"sSimulate": "simulate","sMatchType":"GrayMatch", "iSerialNo": 1})
+
 #icon("@res:0a2b5ee0-18f6-11ee-9e11-c5ccc6f35942.png")
 Image.Click({"wnd":[{"cls":"UnityWndClass","title":"Legends of Runeterra","app":"LoR"}]},{"x": 0, "y": 0, "width": 0, "height": 0},@res"0a2b5ee0-18f6-11ee-9e11-c5ccc6f35942.png",0.8,"left","click",30000, {"bContinueOnError": true, "iDelayAfter": 300, "iDelayBefore": 200, "bSetForeground": true, "sCursorPosition": "Center", "iCursorOffsetX": 0, "iCursorOffsetY": 0, "sKeyModifiers": [],"sSimulate": "simulate","sMatchType":"GrayMatch", "iSerialNo": 1})
 
 Delay(9000)
+
 
 Rem 进入战斗
 
 #icon("@res:19ca3dd0-18f6-11ee-9e11-c5ccc6f35942.png")
 Image.Click({"wnd":[{"cls":"UnityWndClass","title":"Legends of Runeterra","app":"LoR"}]},{"x": 0, "y": 0, "width": 0, "height": 0},@res"19ca3dd0-18f6-11ee-9e11-c5ccc6f35942.png",0.8,"left","dbclick",40000, {"bContinueOnError": true, "iDelayAfter": 300, "iDelayBefore": 500, "bSetForeground": true, "sCursorPosition": "Center", "iCursorOffsetX": 0, "iCursorOffsetY": 0, "sKeyModifiers": [],"sSimulate": "simulate","sMatchType":"GrayMatch", "iSerialNo": 1})
 
-
-
+Delay(14000)
 
 
 Rem 跳过第一回合
-Delay(14000)
+
 #icon("@res:559aaf10-18fc-11ee-9e11-c5ccc6f35942.png")
 Image.Click({"wnd":[{"cls":"UnityWndClass","title":"Legends of Runeterra","app":"LoR"}]},{"x": 0, "y": 0, "width": 0, "height": 0},@res"559aaf10-18fc-11ee-9e11-c5ccc6f35942.png",0.75,"left","click",40000, {"bContinueOnError": true, "iDelayAfter": 300, "iDelayBefore": 500, "bSetForeground": true, "sCursorPosition": "Center", "iCursorOffsetX": 0, "iCursorOffsetY": -100, "sKeyModifiers": [],"sSimulate": "simulate","sMatchType":"GrayMatch", "iSerialNo": 1})
 
-Delay(14000)
+
 Rem 第二回合下金克斯
+
+Delay(14000)
+
 #icon("@res:ba525580-18fb-11ee-9e11-c5ccc6f35942.png")
 Image.Hover({"wnd":[{"cls":"UnityWndClass","title":"Legends of Runeterra","app":"LoR"}]},{"x": 0, "y": 0, "width": 0, "height": 0},@res"ba525580-18fb-11ee-9e11-c5ccc6f35942.png",0.9,30000,{"bContinueOnError": false, "iDelayAfter": 300, "iDelayBefore": 600, "bSetForeground": true, "sCursorPosition": "Center", "iCursorOffsetX": 0, "iCursorOffsetY": 0, "sKeyModifiers": [],"sSimulate": "simulate","sMatchType":"GrayMatch", "iSerialNo": 1})
-objPoint=Mouse.GetPos()
-temp1 = objPoint["x"]
 
-temp2 = objPoint["y"]
-
-Rem Mouse.Drag(temp1, temp2, 1073, 500, "left", [],{"iDelayAfter": 300, "iDelayBefore": 200})
 Mouse.Click("left", "dbclick", [],{"iDelayAfter": 300, "iDelayBefore": 300})
 
 
-
 Rem 结束战斗
+
 #icon("@res:40488850-18fa-11ee-9e11-c5ccc6f35942.png")
 Image.Click({"wnd":[{"cls":"UnityWndClass","title":"Legends of Runeterra","app":"LoR"}]},{"x": 0, "y": 0, "width": 0, "height": 0},@res"40488850-18fa-11ee-9e11-c5ccc6f35942.png",0.8,"left","click",60000, {"bContinueOnError": true, "iDelayAfter": 300, "iDelayBefore": 200, "bSetForeground": true, "sCursorPosition": "Center", "iCursorOffsetX": 0, "iCursorOffsetY": 0, "sKeyModifiers": [],"sSimulate": "simulate","sMatchType":"GrayMatch", "iSerialNo": 1})
 
@@ -78,6 +71,7 @@ Image.Click({"wnd":[{"cls":"UnityWndClass","title":"Legends of Runeterra","app":
 
 
 Rem 退出游戏
+
 #icon("@res:ababfcd0-18fa-11ee-9e11-c5ccc6f35942.png")
 Image.Click({"wnd":[{"cls":"UnityWndClass","title":"Legends of Runeterra","app":"LoR"}]},{"x": 0, "y": 0, "width": 0, "height": 0},@res"ababfcd0-18fa-11ee-9e11-c5ccc6f35942.png",0.8,"left","click",30000, {"bContinueOnError": true, "iDelayAfter": 300, "iDelayBefore": 200, "bSetForeground": true, "sCursorPosition": "Center", "iCursorOffsetX": 0, "iCursorOffsetY": 0, "sKeyModifiers": [],"sSimulate": "simulate","sMatchType":"GrayMatch", "iSerialNo": 1})
 
@@ -95,6 +89,7 @@ Image.Click({"wnd":[{"cls":"UnityWndClass","title":"Legends of Runeterra","app":
 
 #icon("@res:ea4316e0-18fa-11ee-9e11-c5ccc6f35942.png")
 Image.Click({"wnd":[{"cls":"UnityWndClass","title":"Legends of Runeterra","app":"LoR"}]},{"x": 0, "y": 0, "width": 0, "height": 0},@res"ea4316e0-18fa-11ee-9e11-c5ccc6f35942.png",0.8,"left","click",10000, {"bContinueOnError": true, "iDelayAfter": 300, "iDelayBefore": 200, "bSetForeground": true, "sCursorPosition": "Center", "iCursorOffsetX": 0, "iCursorOffsetY": 0, "sKeyModifiers": [],"sSimulate": "simulate","sMatchType":"GrayMatch", "iSerialNo": 1})
-TracePrint("程序已经正常运行"+i1+"次")
-Next
+
+Log.Info("程序已经正常运行" + i + "次")
+
 Next
