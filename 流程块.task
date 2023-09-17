@@ -9,6 +9,9 @@ For i2 = 1 To 1 step 1
 #icon("@res:9b7d7a50-18f5-11ee-9e11-c5ccc6f35942.png")
 Image.Click({"wnd":[{"cls":"UnityWndClass","title":"Legends of Runeterra","app":"LoR"}]},{"x": 0, "y": 0, "width": 0, "height": 0},@res"9b7d7a50-18f5-11ee-9e11-c5ccc6f35942.png",0.75,"left","dbclick",35000, {"bContinueOnError": false, "iDelayAfter": 300, "iDelayBefore": 200, "bSetForeground": true, "sCursorPosition": "Center", "iCursorOffsetX": 0, "iCursorOffsetY": 0, "sKeyModifiers": [],"sSimulate": "simulate","sMatchType":"GrayMatch", "iSerialNo": 1})
 
+Delay(7000)
+Mouse.Click("left", "dbclick", [],{"iDelayAfter": 300, "iDelayBefore": 300})
+
 #icon("@res:b69c1300-18f5-11ee-9e11-c5ccc6f35942.png")
 Image.Click({"wnd":[{"cls":"UnityWndClass","title":"Legends of Runeterra","app":"LoR"}]},{"x": 0, "y": 0, "width": 0, "height": 0},@res"b69c1300-18f5-11ee-9e11-c5ccc6f35942.png",0.8,"left","click",30000, {"bContinueOnError": true, "iDelayAfter": 300, "iDelayBefore": 200, "bSetForeground": true, "sCursorPosition": "Center", "iCursorOffsetX": 0, "iCursorOffsetY": 0, "sKeyModifiers": [],"sSimulate": "simulate","sMatchType":"GrayMatch", "iSerialNo": 1})
 
@@ -55,8 +58,8 @@ temp1 = objPoint["x"]
 
 temp2 = objPoint["y"]
 
-Mouse.Drag(temp1, temp2, 1073, 500, "left", [],{"iDelayAfter": 300, "iDelayBefore": 200})
-
+Rem Mouse.Drag(temp1, temp2, 1073, 500, "left", [],{"iDelayAfter": 300, "iDelayBefore": 200})
+Mouse.Click("left", "dbclick", [],{"iDelayAfter": 300, "iDelayBefore": 300})
 
 
 

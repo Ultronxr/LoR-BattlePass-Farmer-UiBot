@@ -39,7 +39,7 @@
             },
             "file": "流程块.task",
             "caption": "代码区",
-            "editorMode": "visual",
+            "editorMode": "sourceCode",
             "breakpoints": {}
         },
         {
@@ -81,7 +81,7 @@
             "borders": [
                 {
                     "type": "border",
-                    "selected": 0,
+                    "selected": 1,
                     "size": 250,
                     "minSize": 250,
                     "enableAutoHide": true,
@@ -142,6 +142,7 @@
                     {
                         "type": "tabset",
                         "id": "#4ca96b12-5f2b-4512-901e-4437e77a6624",
+                        "selected": 1,
                         "children": [
                             {
                                 "type": "tab",
@@ -156,6 +157,24 @@
                                 "enableClose": false,
                                 "className": "",
                                 "icon": "../../../assets/_/pages-next/home/childrens/main/assets/tab-flow.png"
+                            },
+                            {
+                                "type": "tab",
+                                "id": "76055fc0-18f2-11ee-9e11-c5ccc6f35942",
+                                "name": "代码区",
+                                "helpText": "D:\\AllFilesCode\\workspace\\GitHub\\LoR-BattlePass-Farmer-UiBot\\流程块.task",
+                                "component": "taskNodeEditor",
+                                "config": {
+                                    "selfControl": true,
+                                    "id": "76055fc0-18f2-11ee-9e11-c5ccc6f35942",
+                                    "type": "task",
+                                    "selector": [
+                                        "76055fc0-18f2-11ee-9e11-c5ccc6f35942"
+                                    ]
+                                },
+                                "enableClose": true,
+                                "className": "",
+                                "icon": "../../../assets/_/pages-next/home/childrens/main/assets/tab-task.png"
                             }
                         ],
                         "active": true
